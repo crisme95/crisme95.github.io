@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>My Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Portfolio</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-</body>
 
+    <div class="container">
+        <!-- Profile Header -->
+        <header>
+            <div class="avatar">Me</div>
+            <h1>Cristian Mejia</h1>
+            <p class="subtitle">Developer | Designer | Creator</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/crisme95" class="btn btn-primary">View GitHub</a>
+                <a href="mailto:cristianjmejia@proton.me" class="btn btn-outline">Contact Me</a>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid">
+                <!-- Project 1 -->
+                <article class="card">
+                    <h3>prePad</h3>
+                    <p>A free alternative to LinkedIn Premium. A simple tool that speeds up the job application process.</p>
+                    <span class="tag">JavaScript, Python, PostgreSQL</span>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="card">
+                    <h3>HPC Heat Dissapation Simulation Benchmark</h3>
+                    <p>Learned CUDA and parallel computing techniques to optimize 2D heat dissipation simulations.</p>
+                    <span class="tag">C++, CUDA, MPI</span>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="card">
+                    <h3>DJPi</h3>
+                    <p>A music recommendation system built with Python and optimized to run on low-powered hardware (i.e., Raspberry Pi).</p>
+                    <span class="tag">C++, Python</span>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Cristian J. Mejia. Hosted on GitHub Pages.</p>
+        </footer>
+    </div>
+
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+</body>
 </html>
